@@ -2,12 +2,12 @@
 
 This script was created with the assistance of Gemini Advanced Pro.
 
-This repository contains an R script that generates stylized elevation profile plots between any two geographical coordinates (in decimal degrees). The script leverages several R packages to fetch real-world elevation data and create a visually appealing plot with a dark theme and a neon glow effect.
+This repository contains an R script that generates stylized elevation profile plots between any two geographical coordinates (in decimal degrees). The script leverages several R packages to fetch real-world elevation data and create a visually appealing plot with a dark theme and a neon glow effect. The script will print the provided name for the mountain profile or, if not given such a name, will proceed to find the highest point on the profile and attempt to use the tidygeocoder package to get its geographical name from OpenStreetMap.
 
 It is designed to be run from the command line, making it easy to integrate into automated workflows or use for generating multiple profiles quickly.
 
 ## Syntax
-Rscript elevationProfileR.R <start_lon> <start_lat> <end_lon> <end_lat> [output_filename.png]
+Rscript elevationProfileR.R <start_lon> <start_lat> <end_lon> <end_lat> [output_filename.png] [\"Terrain Name\"]"
 
 ## Output example (the central text is post-edited)
 
