@@ -7,7 +7,7 @@ This repository contains an R script that generates stylized elevation profile p
 It is designed to be run from the command line, making it easy to integrate into automated workflows or use for generating multiple profiles quickly.
 
 ## Syntax
-Rscript elevationProfileR.R <start_lon> <start_lat> <end_lon> <end_lat> [output_filename.png] [\"Terrain Name\"]"
+Rscript elevationProfileR.R <start_lon> <start_lat> <end_lon> <end_lat> [output_filename.png] [\"Terrain Name\"]
 
 ## Output example (the central text is post-edited)
 
