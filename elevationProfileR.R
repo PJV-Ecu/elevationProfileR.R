@@ -261,7 +261,7 @@ profile_plot <- ggplot(profile_df, aes(x = position_index, y = elevation_meters)
         alpha = 0.8                  # Slight transparency
     ) +
     scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
-    scale_x_continuous(expand = expansion(mult = c(0, 0))) +
+    scale_x_reverse(expand = expansion(mult = c(0, 0))) +
     theme(
         plot.background = element_rect(fill = "#1a1a1a", color = NA),
         panel.background = element_rect(fill = "#1a1a1a", color = NA),
@@ -292,3 +292,4 @@ ggsave(output_filename, plot = profile_plot,
 cat(paste("\nPlot successfully saved as", output_filename, "\n"))
 cat("--- End of Step 3 ---\n")
 cat("Script finished.\n")
+
